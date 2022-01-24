@@ -1,11 +1,11 @@
 /*---------- fonts
 ---------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 /*---------- common style 
 --------------------------*/
-body{
-    font-family: 'Poppins', sans-serif;
+nav, strong, h1, footer{
+  font-family: 'Acme', sans-serif;
 }
 
 /*---------- Slider 
@@ -35,6 +35,7 @@ body{
 	text-align: center;
 }
 .home .carousel-item h2{
+  font-family: 'Acme', sans-serif;
 	font-size: 50px;
 	color: #ffffff;
 	margin:0 0 10px;
