@@ -85,7 +85,11 @@
                         <div class="carousel-caption d-block d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <div class="btn btn-danger text-uppercase">Book Now</div>
+                            <div class="btn btn-danger text-uppercase">
+                                <a class="text-decoration-none text-white" target="_blank"
+                                    href="https://github.com/najmul-rusu">Book
+                                    Now</a>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -93,7 +97,11 @@
                         <div class="carousel-caption d-block d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
-                            <div class="btn btn-danger text-uppercase">Book Now</div>
+                            <div class="btn btn-danger text-uppercase">
+                                <a class="text-decoration-none text-white" target="_blank"
+                                    href="https://github.com/najmul-rusu">Book
+                                    Now</a>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -101,7 +109,11 @@
                         <div class="carousel-caption d-block d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
-                            <div class="btn btn-danger text-uppercase">Book Now</div>
+                            <div class="btn btn-danger text-uppercase">
+                                <a class="text-decoration-none text-white" target="_blank"
+                                    href="https://github.com/najmul-rusu">Book
+                                    Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -254,100 +266,89 @@
         <section class="container mb-5">
             <h1 class="text-center mb-5">Frequently Asked Questions</h1>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="accordion col-lg-6" id="accordionExample">
                     <!--======== FAQ - 01 =========-->
-                    <p class="card-header border-1 ">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapse-one" role="button"
-                            aria-expanded="false" aria-controls="collapse-one">
-                            Are dogs allowed at Pasadena Convention Center?
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapse-one">
-                        <div class="card card-body">
-                            Some placeholder content for the collapse component. This panel is hidden by default but
-                            revealed when the user activates the relevant trigger.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Are dogs allowed at Pasadena Convention Center?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
                         </div>
                     </div>
                     <!--======== FAQ - 02 =========-->
-                    <p class="card-header border-1">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapse-two" role="button"
-                            aria-expanded="false" aria-controls="collapse-two">
-                            Does the Dallas Convention Center have WIFI?
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapse-two">
-                        <div class="card card-body">
-                            Do you have Internet access available? Complimentary Wi-Fi service is located in lobbies.
-                            For additional service, contact Smart City Networks at (214) 853-8119.
+                    <div class="accordion-item my-2">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Does the Dallas Convention Center have WIFI?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Do you have Internet access available? Complimentary Wi-Fi service is located in
+                                lobbies.
+                                For additional service, contact Smart City Networks at (214) 853-8119.
+                            </div>
                         </div>
                     </div>
                     <!--======== FAQ - 03 =========-->
-                    <p class="card-header border-1">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapse-three" role="button"
-                            aria-expanded="false" aria-controls="collapse-three">
-                            What hotels are connected to the Orlando Convention Center?
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapse-three">
-                        <div class="card card-body">
-                            The Orange County Convention Center, or OCCC, is 10 miles southwest of downtown Orlando. The
-                            Rosen Centre Hotel, Hyatt Regency Hotel, and the Hilton Hotel are connected to the OCCC.
+                    <div class="accordion-item my-2">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What hotels are connected to the Orlando Convention Center?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The Orange County Convention Center, or OCCC, is 10 miles southwest of downtown Orlando.
+                                The
+                                Rosen Centre Hotel, Hyatt Regency Hotel, and the Hilton Hotel are connected to the OCCC.
+                            </div>
                         </div>
                     </div>
                     <!--======== FAQ - 04 =========-->
-                    <p class="card-header border-1">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapse-four" role="button"
-                            aria-expanded="false" aria-controls="collapse-four">
-                            Who owns the Pasadena Convention Center?
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapse-four">
-                        <div class="card card-body">
-                            City of Pasadena
-                            The Pasadena Convention Center is a convention center in Pasadena, California. It consists
-                            of three buildings.
+                    <div class="accordion-item my-2">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Who owns the Pasadena Convention Center?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                City of Pasadena
+                                The Pasadena Convention Center is a convention center in Pasadena, California. It
+                                consists
+                                of three buildings.
+                            </div>
                         </div>
                     </div>
                     <!--======== FAQ - 05 =========-->
-                    <p class="card-header border-1">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapse-five" role="button"
-                            aria-expanded="false" aria-controls="collapse-five">
-                            How large is the Orlando Convention Center?
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapse-five">
-                        <div class="card card-body">
-                            7 million square feet
-                            How big is the Orange County Convention Center? 7 million square feet.
-                        </div>
-                    </div>
-                    <!--======== FAQ - 06 =========-->
-                    <p class="card-header border-1">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapse-six" role="button"
-                            aria-expanded="false" aria-controls="collapse-six">
-                            Can you walk from Hilton Orlando to convention center?
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapse-six">
-                        <div class="card card-body">
-                            2 answers. It is possible to walk from one end of the concourse to the other. It is a
-                            covered walkway indoors and out. Our convention was on the opposite end from the Hilton, it
-                            is a "good" walk in comfortable shoes.
-                        </div>
-                    </div>
-                    <!--======== FAQ - 07 =========-->
-                    <p class="card-header border-1">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapse-seven" role="button"
-                            aria-expanded="false" aria-controls="collapse-seven">
-                            How far is Orlando Convention Center from airport?
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapse-seven">
-                        <div class="card card-body">
-                            Yes, the driving distance between Orange County Convention Center to Orlando Airport (MCO)
-                            is 13 miles. It takes approximately 20 min to drive from Orange County Convention Center to
-                            Orlando Airport (MCO). Where can I stay near Orlando Airport (MCO)? There are 2213+ hotels
-                            available in Orlando Airport (MCO)..
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                How large is the Orlando Convention Center?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                7 million square feet
+                                How big is the Orange County Convention Center? 7 million square feet.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -440,18 +441,7 @@
                         src="images/icon/google-play-store.png" alt=""> </a>
             </div>
         </div>
-        <!-- <div class="d-flex justify-content-between container">
-            <div class="d-flex align-items-center py-3">
-                <p class="text-white">© 2020 EveDiva Convention Center. All rights reserved.</p>
-            </div>
-            <div class="">
-                <p class="text-white">Get the App</p>
-                <a target="_blank" href="https://apps.apple.com/us/app/pubg-mobile-aftermath/id1330123889"> <img
-                        src="images/icon/app-store.png" class="mb-2" alt=""></a><br>
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.tencent.ig&hl=en&gl=US"> <img
-                        src="images/icon/google-play-store.png" alt=""> </a>
-            </div>
-        </div> -->
+
     </footer>
 
     <!-- bootstrap script -->
