@@ -11,7 +11,7 @@ nav, strong, h1, footer{
 /*---------- Slider 
 --------------------------*/
 .home .carousel-item{
-	min-height: 100vh;
+	min-height: 80vh;
 	background-position: center;
 	background-size: cover;
 	position: relative;
